@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+		<groupId>org.jenkins-ci.plugins</groupId>
+		<artifactId>plugin</artifactId>
+		<version>1.424</version>
+	</parent>
+
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>file-url-annotator</artifactId>
+    <packaging>hpi</packaging>
+    <name>File Url Annotator Plugin</name>
+    <version>1.0-SNAPSHOT</version>
+    <description>Cause file urls to be rendered as hyperlinks</description>
+    <url></url>
+
+	<scm>
+		<connection>scm:git:git://github.com/pmaccamp/File-Url-Annotator.git</connection>
+		<developerConnection>scm:git:git@github.com:pmaccamp/File-Url-Annotator.git</developerConnection>
+		<url>http://github.com/pmaccamp/File-Url-Annotator</url>
+	</scm>
+  
+    <developers>
+        <developer>
+            <name>Patrick McKeown</name>
+            <email>pmaccamp@sbcglobal.net</email>
+        </developer>
+    </developers>
+
+	<dependencies>
+    	<dependency>
+      		<groupId>junit</groupId>
+     		<artifactId>junit</artifactId>
+     		<version>4.8.1</version>
+     		<scope>test</scope>
+     	</dependency>
+     	<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+		</dependency>            
+	</dependencies>
+    
+	<repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+</project>
+
