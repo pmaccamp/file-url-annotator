@@ -13,9 +13,9 @@
     <artifactId>file-url-annotator</artifactId>
     <packaging>hpi</packaging>
     <name>File Url Annotator Plugin</name>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <description>Cause file urls to be rendered as hyperlinks</description>
-    <url />
+    <url></url>
 
 	<scm>
 		<connection>scm:git:git://github.com/pmaccamp/file-url-annotator.git</connection>
