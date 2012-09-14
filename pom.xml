@@ -18,9 +18,9 @@
     <url></url>
 
 	<scm>
-		<connection>scm:git:git://github.com/pmaccamp/File-Url-Annotator.git</connection>
-		<developerConnection>scm:git:git@github.com:pmaccamp/File-Url-Annotator.git</developerConnection>
-		<url>http://github.com/pmaccamp/File-Url-Annotator</url>
+		<connection>scm:git:git://github.com/pmaccamp/file-url-annotator.git</connection>
+		<developerConnection>scm:git:git@github.com:pmaccamp/file-url-annotator.git</developerConnection>
+		<url>http://github.com/pmaccamp/file-url-annotator</url>
 	</scm>
   
     <developers>
