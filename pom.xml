@@ -8,6 +8,13 @@
 		<artifactId>plugin</artifactId>
 		<version>1.424</version>
 	</parent>
+	
+	<distributionManagement>
+  		<repository>
+  		  <id>local-repo</id>
+  		  <url>http://localhost:8081/nexus/content/repositories/local-repo</url>
+ 		 </repository>
+	</distributionManagement>
 
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>file-url-annotator</artifactId>
