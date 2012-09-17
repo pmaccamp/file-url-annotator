@@ -24,7 +24,7 @@
     <artifactId>file-url-annotator</artifactId>
     <packaging>hpi</packaging>
     <name>File Url Annotator Plugin</name>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <description>Cause file urls to be rendered as hyperlinks</description>
     <url />
 
